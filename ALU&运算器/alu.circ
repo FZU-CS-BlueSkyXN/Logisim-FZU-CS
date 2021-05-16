@@ -7850,8 +7850,6 @@
     <wire from="(400,340)" to="(400,390)"/>
     <wire from="(270,340)" to="(270,390)"/>
     <wire from="(400,390)" to="(490,390)"/>
-    <wire from="(490,340)" to="(490,390)"/>
-    <wire from="(490,340)" to="(510,340)"/>
     <wire from="(530,350)" to="(530,360)"/>
     <wire from="(530,360)" to="(630,360)"/>
     <wire from="(430,360)" to="(530,360)"/>
@@ -7864,14 +7862,6 @@
     <wire from="(220,280)" to="(340,280)"/>
     <wire from="(220,640)" to="(280,640)"/>
     <wire from="(220,280)" to="(220,640)"/>
-    <wire from="(460,230)" to="(460,260)"/>
-    <wire from="(430,220)" to="(430,230)"/>
-    <wire from="(380,220)" to="(430,220)"/>
-    <wire from="(430,230)" to="(460,230)"/>
-    <wire from="(460,230)" to="(490,230)"/>
-    <wire from="(490,230)" to="(490,240)"/>
-    <wire from="(540,220)" to="(540,240)"/>
-    <wire from="(490,240)" to="(540,240)"/>
     <wire from="(360,660)" to="(430,660)"/>
     <wire from="(450,670)" to="(560,670)"/>
     <wire from="(560,260)" to="(560,670)"/>
@@ -7894,7 +7884,6 @@
     <wire from="(280,390)" to="(400,390)"/>
     <wire from="(780,520)" to="(780,700)"/>
     <wire from="(730,520)" to="(780,520)"/>
-    <wire from="(150,460)" to="(280,460)"/>
     <wire from="(120,460)" to="(120,700)"/>
     <wire from="(120,700)" to="(780,700)"/>
     <wire from="(120,460)" to="(130,460)"/>
@@ -7905,6 +7894,11 @@
     <wire from="(800,420)" to="(800,450)"/>
     <wire from="(730,450)" to="(800,450)"/>
     <wire from="(800,450)" to="(830,450)"/>
+    <wire from="(460,230)" to="(460,260)"/>
+    <wire from="(150,460)" to="(280,460)"/>
+    <wire from="(490,300)" to="(520,300)"/>
+    <wire from="(490,300)" to="(490,390)"/>
+    <wire from="(520,300)" to="(520,310)"/>
     <comp lib="5" loc="(422,772)" name="Text">
       <a name="text" val="后续所有实验中凡是涉及存储器件，如寄存器、计数器、RAM等，必须增加统一的复位信号RST，方便系统复位"/>
       <a name="font" val="SansSerif bold 14"/>
@@ -8251,6 +8245,14 @@
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
+    <comp lib="0" loc="(460,230)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="radix" val="2"/>
+      <a name="label" val="Y"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Times New Roman bolditalic 18"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
     <comp lib="5" loc="(725,171)" name="Text">
       <a name="text" val="n"/>
       <a name="font" val="Dialog plain 12"/>
@@ -8277,14 +8279,6 @@
       <a name="bit5" val="1"/>
       <a name="bit6" val="1"/>
       <a name="bit7" val="1"/>
-    </comp>
-    <comp lib="0" loc="(540,220)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="radix" val="2"/>
-      <a name="label" val="Y"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Times New Roman bolditalic 18"/>
-      <a name="labelcolor" val="#000000"/>
     </comp>
     <comp lib="0" loc="(160,60)" name="Tunnel">
       <a name="facing" val="west"/>
@@ -8485,11 +8479,12 @@
     <wire from="(760,410)" to="(790,410)"/>
     <wire from="(180,580)" to="(190,580)"/>
     <wire from="(180,570)" to="(180,580)"/>
-    <wire from="(590,330)" to="(600,330)"/>
     <wire from="(330,450)" to="(790,450)"/>
-    <wire from="(590,330)" to="(590,410)"/>
-    <wire from="(590,410)" to="(660,410)"/>
-    <wire from="(410,410)" to="(590,410)"/>
+    <wire from="(580,280)" to="(580,410)"/>
+    <wire from="(580,280)" to="(610,280)"/>
+    <wire from="(410,410)" to="(580,410)"/>
+    <wire from="(580,410)" to="(660,410)"/>
+    <wire from="(610,280)" to="(610,300)"/>
     <comp lib="0" loc="(330,290)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="2"/>
