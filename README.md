@@ -1,9 +1,17 @@
 # Logisim-FZU-CS
-Logisim 系统综合实验
+FZU Logisim 系统综合实验 By BlueSkyXN 
 
 # Background
 
 Fuzhou University - CMCS - Computer Science and Technology - System comprehensive experiment
+
+# WARNING
+
+如果没有说明，则全部完成可用
+
+若不可用，请电路复位，重启，手动时序，关闭电路仿真再试
+
+我使用的是环境包中的logisim-ita-cn-1223 是一个免安装版本
 
 # Include
 
