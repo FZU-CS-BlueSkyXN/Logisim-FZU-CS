@@ -1,5 +1,7 @@
 # Logisim-FZU-CS
-FZU 福州大学 Logisim 系统综合实验/实践（数字运动码表/ALU运算器/存储器等） By BlueSkyXN 
+FZU 福州大学 Logisim 系统综合实验/实践 By BlueSkyXN 
+<a href="https://github.com/BlueSkyXN/Logisim-FZU-CS#%E6%95%B0%E5%AD%97%E7%A0%81%E8%A1%A8%E8%BF%90%E5%8A%A8%E7%A0%81%E8%A1%A8%E8%AE%BE%E8%AE%A1">数字码表</a>/<a href="https://github.com/BlueSkyXN/Logisim-FZU-CS#%E8%BF%90%E7%AE%97%E5%99%A8%E5%AE%9E%E9%AA%8C--alu">ALU运算器</a>/<a href="https://github.com/BlueSkyXN/Logisim-FZU-CS#%E5%AD%98%E5%82%A8%E5%99%A8%E5%AF%84%E5%AD%98%E5%99%A8">存储器</a>等
+By BlueSkyXN 
 
 # Background
 
