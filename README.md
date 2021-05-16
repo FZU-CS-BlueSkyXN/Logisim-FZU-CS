@@ -1,5 +1,5 @@
 # Logisim-FZU-CS
-FZU Logisim 系统综合实验 By BlueSkyXN 
+FZU 福州大学 Logisim 系统综合实验/实践（数字运动码表/ALU运算器/存储器等） By BlueSkyXN 
 
 # Background
 
