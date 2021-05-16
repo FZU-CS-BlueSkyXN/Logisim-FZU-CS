@@ -7,15 +7,15 @@ Fuzhou University - CMCS - Computer Science and Technology - System comprehensiv
 
 # WARNING
 
-如果没有说明，则全部完成可用
+懂得都懂，B话少说。如果没有说明，则全部完成可用。
 
-若不可用，请电路复位，重启，手动时序，关闭电路仿真再试
+若不可用，请电路复位，重启，手动时序，关闭电路仿真再试。
 
-我使用的是环境包中的logisim-ita-cn-1223 是一个免安装版本
+我使用的是环境包中的logisim-ita-cn-1223 ，是一个免安装版本。
 
 # Include
 
-## 数字码表（运动码表设计）
+## <a href="https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/数字码表.circ">数字码表（运动码表设计）</a>
 
 LED计数电路
 
@@ -53,7 +53,7 @@ BCD计数器输出函数
 
 运动码表
 
-## 运算器实验 & ALU
+## <a href="https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/alu.circ">运算器实验 & ALU</a>
 
 8位可控加减法器
 
