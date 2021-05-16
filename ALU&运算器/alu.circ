@@ -14,7 +14,7 @@
       <a name="bit3" val="3"/>
     </tool>
     <tool name="Pin">
-      <a name="facing" val="east"/>
+      <a name="facing" val="north"/>
       <a name="output" val="false"/>
       <a name="width" val="1"/>
       <a name="tristate" val="true"/>
@@ -7892,28 +7892,25 @@
     <wire from="(280,390)" to="(280,460)"/>
     <wire from="(270,390)" to="(280,390)"/>
     <wire from="(280,390)" to="(400,390)"/>
-    <wire from="(190,700)" to="(780,700)"/>
-    <wire from="(190,460)" to="(190,700)"/>
-    <wire from="(190,460)" to="(280,460)"/>
-    <wire from="(150,460)" to="(190,460)"/>
     <wire from="(780,520)" to="(780,700)"/>
     <wire from="(730,520)" to="(780,520)"/>
-    <wire from="(110,460)" to="(130,460)"/>
-    <wire from="(760,260)" to="(780,260)"/>
-    <wire from="(330,420)" to="(480,420)"/>
-    <wire from="(730,450)" to="(830,450)"/>
+    <wire from="(150,460)" to="(280,460)"/>
+    <wire from="(120,460)" to="(120,700)"/>
+    <wire from="(120,700)" to="(780,700)"/>
+    <wire from="(120,460)" to="(130,460)"/>
+    <wire from="(110,460)" to="(120,460)"/>
+    <wire from="(630,460)" to="(690,460)"/>
+    <wire from="(630,540)" to="(690,540)"/>
+    <wire from="(330,420)" to="(800,420)"/>
+    <wire from="(800,420)" to="(800,450)"/>
+    <wire from="(730,450)" to="(800,450)"/>
+    <wire from="(800,450)" to="(830,450)"/>
     <comp lib="5" loc="(422,772)" name="Text">
       <a name="text" val="后续所有实验中凡是涉及存储器件，如寄存器、计数器、RAM等，必须增加统一的复位信号RST，方便系统复位"/>
       <a name="font" val="SansSerif bold 14"/>
       <a name="color" val="#000000"/>
       <a name="halign" val="center"/>
       <a name="valign" val="base"/>
-    </comp>
-    <comp lib="0" loc="(780,260)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="width" val="1"/>
-      <a name="label" val="STOP"/>
-      <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="3" loc="(730,530)" name="Comparator">
       <a name="width" val="8"/>
@@ -7975,14 +7972,6 @@
       <a name="facing" val="west"/>
       <a name="radix" val="10unsigned"/>
       <a name="label" val=""/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-      <a name="labelcolor" val="#000000"/>
-    </comp>
-    <comp lib="6" loc="(760,260)" name="Button">
-      <a name="facing" val="east"/>
-      <a name="color" val="#4eff4e"/>
-      <a name="label" val="STOP"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
@@ -8095,12 +8084,6 @@
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(480,420)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="width" val="1"/>
-      <a name="label" val="LOAD"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
     <comp lib="0" loc="(310,550)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="8"/>
@@ -8114,6 +8097,11 @@
       <a name="bit5" val="5"/>
       <a name="bit6" val="6"/>
       <a name="bit7" val="7"/>
+    </comp>
+    <comp lib="0" loc="(630,460)" name="Constant">
+      <a name="facing" val="east"/>
+      <a name="width" val="8"/>
+      <a name="value" val="0x0"/>
     </comp>
     <comp lib="1" loc="(150,460)" name="NOT Gate">
       <a name="facing" val="east"/>
@@ -8147,6 +8135,11 @@
       <a name="width" val="8"/>
       <a name="label" val="X"/>
       <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(630,540)" name="Constant">
+      <a name="facing" val="east"/>
+      <a name="width" val="8"/>
+      <a name="value" val="0x8"/>
     </comp>
     <comp lib="0" loc="(540,60)" name="Pin">
       <a name="facing" val="west"/>
@@ -8404,11 +8397,8 @@
     <wire from="(310,570)" to="(310,580)"/>
     <wire from="(320,570)" to="(320,580)"/>
     <wire from="(330,570)" to="(330,580)"/>
-    <wire from="(220,610)" to="(220,630)"/>
-    <wire from="(180,610)" to="(220,610)"/>
     <wire from="(230,600)" to="(230,630)"/>
     <wire from="(200,660)" to="(200,690)"/>
-    <wire from="(180,570)" to="(180,610)"/>
     <wire from="(700,350)" to="(720,350)"/>
     <wire from="(630,320)" to="(700,320)"/>
     <wire from="(700,320)" to="(700,350)"/>
@@ -8416,7 +8406,6 @@
     <wire from="(700,480)" to="(720,480)"/>
     <wire from="(700,400)" to="(700,480)"/>
     <wire from="(700,350)" to="(700,400)"/>
-    <wire from="(760,410)" to="(810,410)"/>
     <wire from="(310,600)" to="(390,600)"/>
     <wire from="(260,640)" to="(330,640)"/>
     <wire from="(360,650)" to="(390,650)"/>
@@ -8476,7 +8465,6 @@
     <wire from="(310,410)" to="(410,410)"/>
     <wire from="(410,360)" to="(410,410)"/>
     <wire from="(410,360)" to="(460,360)"/>
-    <wire from="(410,410)" to="(660,410)"/>
     <wire from="(660,410)" to="(660,600)"/>
     <wire from="(470,400)" to="(570,400)"/>
     <wire from="(570,360)" to="(570,400)"/>
@@ -8489,7 +8477,19 @@
     <wire from="(480,370)" to="(480,380)"/>
     <wire from="(480,380)" to="(620,380)"/>
     <wire from="(360,380)" to="(480,380)"/>
-    <wire from="(760,260)" to="(780,260)"/>
+    <wire from="(690,420)" to="(720,420)"/>
+    <wire from="(690,500)" to="(720,500)"/>
+    <wire from="(330,450)" to="(330,470)"/>
+    <wire from="(790,410)" to="(790,450)"/>
+    <wire from="(790,410)" to="(810,410)"/>
+    <wire from="(760,410)" to="(790,410)"/>
+    <wire from="(180,580)" to="(190,580)"/>
+    <wire from="(180,570)" to="(180,580)"/>
+    <wire from="(590,330)" to="(600,330)"/>
+    <wire from="(330,450)" to="(790,450)"/>
+    <wire from="(590,330)" to="(590,410)"/>
+    <wire from="(590,410)" to="(660,410)"/>
+    <wire from="(410,410)" to="(590,410)"/>
     <comp lib="0" loc="(330,290)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="2"/>
@@ -8537,14 +8537,6 @@
       <a name="width" val="1"/>
       <a name="label" val="LOAD"/>
       <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="6" loc="(760,260)" name="Button">
-      <a name="facing" val="east"/>
-      <a name="color" val="#4eff4e"/>
-      <a name="label" val="STOP"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-      <a name="labelcolor" val="#000000"/>
     </comp>
     <comp lib="5" loc="(284,623)" name="Text">
       <a name="text" val="∑+ (Yn+1-Yn)补"/>
@@ -8606,6 +8598,11 @@
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(690,420)" name="Constant">
+      <a name="facing" val="east"/>
+      <a name="width" val="8"/>
+      <a name="value" val="0x0"/>
     </comp>
     <comp lib="5" loc="(676,108)" name="Text">
       <a name="text" val="="/>
@@ -8840,12 +8837,6 @@
       <a name="label" val="RST"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(330,470)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="width" val="1"/>
-      <a name="label" val="LOAD"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
     <comp lib="5" loc="(109,204)" name="Text">
       <a name="text" val="8位补码 Booth一位乘法器"/>
       <a name="font" val="SansSerif bold 14"/>
@@ -8888,11 +8879,10 @@
       <a name="label" val="乘积"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(780,260)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="width" val="1"/>
-      <a name="label" val="STOP"/>
-      <a name="labelfont" val="Dialog plain 12"/>
+    <comp lib="0" loc="(690,500)" name="Constant">
+      <a name="facing" val="east"/>
+      <a name="width" val="8"/>
+      <a name="value" val="0x8"/>
     </comp>
     <comp lib="4" loc="(630,320)" name="Counter">
       <a name="width" val="8"/>
