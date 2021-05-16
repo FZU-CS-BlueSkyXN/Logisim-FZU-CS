@@ -1,5 +1,5 @@
 # Logisim-FZU-CS
-FZU Logisim 系统综合实验 By BlueSkyXN 
+FZU 福州大学 Logisim 系统综合实验/实践（数字运动码表/ALU运算器/存储器等） By BlueSkyXN 
 
 # Background
 
@@ -73,6 +73,6 @@ BCD计数器输出函数
 
 原码一位乘法器
 
-补码一位乘法器
+补码一位乘法器 【做了2种，但是目前结论都不对】
 
 算术逻辑运算单元ALU
