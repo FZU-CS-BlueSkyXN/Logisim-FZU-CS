@@ -95,5 +95,11 @@ Cache（2路组相联）
 
 Cache（4路组相联）
 
+# Download
+
+https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/数字码表.circ
+
+https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/alu.circ
+
 
 
