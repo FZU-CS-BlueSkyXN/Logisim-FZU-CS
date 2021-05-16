@@ -1,5 +1,7 @@
 # Logisim-FZU-CS
-FZU 福州大学 Logisim 系统综合实验/实践（数字运动码表/ALU运算器/存储器等） By BlueSkyXN 
+FZU 福州大学 Logisim 系统综合实验/实践 By BlueSkyXN 
+<a href="https://github.com/BlueSkyXN/Logisim-FZU-CS#%E6%95%B0%E5%AD%97%E7%A0%81%E8%A1%A8%E8%BF%90%E5%8A%A8%E7%A0%81%E8%A1%A8%E8%AE%BE%E8%AE%A1">数字码表</a>/<a href="https://github.com/BlueSkyXN/Logisim-FZU-CS#%E8%BF%90%E7%AE%97%E5%99%A8%E5%AE%9E%E9%AA%8C--alu">ALU运算器</a>/<a href="https://github.com/BlueSkyXN/Logisim-FZU-CS#%E5%AD%98%E5%82%A8%E5%99%A8%E5%AF%84%E5%AD%98%E5%99%A8">存储器寄存器</a>等
+By BlueSkyXN 
 
 # Background
 
@@ -7,15 +9,15 @@ Fuzhou University - CMCS - Computer Science and Technology - System comprehensiv
 
 # WARNING
 
-如果没有说明，则全部完成可用
+懂得都懂，B话少说。如果没有说明，则全部完成可用。
 
-若不可用，请电路复位，重启，手动时序，关闭电路仿真再试
+若不可用，请电路复位，重启，手动时序，关闭电路仿真再试。
 
-我使用的是环境包中的logisim-ita-cn-1223 是一个免安装版本
+我使用的是环境包中的logisim-ita-cn-1223 ，是一个免安装版本。
 
 # Include
 
-## 数字码表（运动码表设计）
+## <a href="https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/数字码表.circ">数字码表（运动码表设计）</a>
 
 LED计数电路
 
@@ -53,7 +55,7 @@ BCD计数器输出函数
 
 运动码表
 
-## 运算器实验 & ALU
+## <a href="https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/alu.circ">运算器实验 & ALU</a>
 
 8位可控加减法器
 
@@ -76,3 +78,30 @@ BCD计数器输出函数
 补码一位乘法器 【做了2种，但是目前结论都不对】
 
 算术逻辑运算单元ALU
+
+## 存储器/寄存器
+
+【进行中 2021/05/16】
+
+字库电路
+
+MIPS RAM
+
+MIPS Regfile
+
+Cache（直接相联）
+
+Cache（全相联）
+
+Cache（2路组相联）
+
+Cache（4路组相联）
+
+# Download
+
+<a href="https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/数字码表.circ">数字码表（运动码表设计）</a>
+
+<a href="https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/alu.circ">运算器实验 & ALU</a>
+
+
+
