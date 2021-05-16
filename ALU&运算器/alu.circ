@@ -8480,11 +8480,11 @@
     <wire from="(180,580)" to="(190,580)"/>
     <wire from="(180,570)" to="(180,580)"/>
     <wire from="(330,450)" to="(790,450)"/>
-    <wire from="(580,280)" to="(580,410)"/>
-    <wire from="(580,280)" to="(610,280)"/>
+    <wire from="(610,290)" to="(610,300)"/>
+    <wire from="(580,290)" to="(610,290)"/>
+    <wire from="(580,290)" to="(580,410)"/>
     <wire from="(410,410)" to="(580,410)"/>
     <wire from="(580,410)" to="(660,410)"/>
-    <wire from="(610,280)" to="(610,300)"/>
     <comp lib="0" loc="(330,290)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="2"/>
