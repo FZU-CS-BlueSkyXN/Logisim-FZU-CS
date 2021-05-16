@@ -8650,7 +8650,7 @@
     <comp lib="0" loc="(720,350)" name="Tunnel">
       <a name="facing" val="west"/>
       <a name="width" val="8"/>
-      <a name="label" val="TimeX"/>
+      <a name="label" val="Time"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="3" loc="(760,490)" name="Comparator">
@@ -9531,7 +9531,7 @@
     <comp lib="0" loc="(720,350)" name="Tunnel">
       <a name="facing" val="west"/>
       <a name="width" val="8"/>
-      <a name="label" val="TimeX"/>
+      <a name="label" val="Time"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="0" loc="(310,600)" name="Splitter">
