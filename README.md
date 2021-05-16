@@ -97,9 +97,9 @@ Cache（4路组相联）
 
 # Download
 
-https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/数字码表.circ
+<a href="https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/数字码表.circ">数字码表（运动码表设计）</a>
 
-https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/alu.circ
+<a href="https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/alu.circ">运算器实验 & ALU</a>
 
 
 
