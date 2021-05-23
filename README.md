@@ -79,9 +79,7 @@ BCD计数器输出函数
 
 算术逻辑运算单元ALU
 
-## 存储器/寄存器
-
-【进行中 2021/05/16】
+## <a href="https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/storage.circ">存储器/寄存器</a>
 
 字库电路
 
@@ -102,6 +100,8 @@ Cache（4路组相联）
 <a href="https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/数字码表.circ">数字码表（运动码表设计）</a>
 
 <a href="https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/alu.circ">运算器实验 & ALU</a>
+
+<a href="https://cdn.jsdelivr.net/gh/BlueSkyXN/Logisim-FZU-CS/最终成果/storage.circ">存储器/寄存器</a>
 
 
 
