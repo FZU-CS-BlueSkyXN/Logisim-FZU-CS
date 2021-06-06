@@ -108,8 +108,7 @@ Cache（4路组相联）
 
 https://github.com/ManiaciaChao/hustzc
 
-https://github.com/RShawshank/homework/tree/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1
-
+https://github.com/RShawshank/homework
 https://github.com/LNLT/computer-composition-principle
 
 https://github.com/msc9413/cpuo
@@ -122,8 +121,6 @@ https://github.com/ztreble/build-a-cpu
 
 https://github.com/Benjaminyuan/HUST-CS
 
-https://github.com/Benjaminyuan/HUST-CS/tree/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1
-
 https://github.com/Rayyyz/HUST_CS18
 
 https://github.com/Nicolasios/Lab-Homework
@@ -132,4 +129,3 @@ https://github.com/1748995976/Third_year_1/tree/master/ComputerOrganizationExper
 
 https://github.com/HuSharp/hust_MIPS_CPU_Design
 
-https://github.com/MiChuan/ComputerPrincipleLab
