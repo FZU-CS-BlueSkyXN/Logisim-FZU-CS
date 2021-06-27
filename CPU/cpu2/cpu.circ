@@ -4558,7 +4558,6 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
     <wire from="(1050,1000)" to="(1050,1090)"/>
     <wire from="(520,720)" to="(520,980)"/>
     <wire from="(370,1010)" to="(370,1020)"/>
-    <wire from="(830,750)" to="(930,750)"/>
     <wire from="(650,740)" to="(650,950)"/>
     <wire from="(90,1370)" to="(1660,1370)"/>
     <wire from="(620,1160)" to="(790,1160)"/>
@@ -4574,7 +4573,6 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
     <wire from="(590,970)" to="(590,1160)"/>
     <wire from="(860,980)" to="(870,980)"/>
     <wire from="(540,990)" to="(540,1000)"/>
-    <wire from="(950,520)" to="(950,530)"/>
     <wire from="(1020,990)" to="(1020,1000)"/>
     <wire from="(810,1010)" to="(870,1010)"/>
     <wire from="(620,980)" to="(680,980)"/>
@@ -4623,22 +4621,18 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
     <wire from="(560,1060)" to="(810,1060)"/>
     <wire from="(620,960)" to="(870,960)"/>
     <wire from="(1520,660)" to="(1520,730)"/>
-    <wire from="(870,550)" to="(910,550)"/>
     <wire from="(970,970)" to="(1010,970)"/>
     <wire from="(1310,730)" to="(1310,1060)"/>
     <wire from="(620,950)" to="(650,950)"/>
-    <wire from="(930,750)" to="(1090,750)"/>
     <wire from="(300,970)" to="(310,970)"/>
     <wire from="(1620,690)" to="(1620,990)"/>
     <wire from="(650,740)" to="(780,740)"/>
-    <wire from="(920,520)" to="(920,770)"/>
     <wire from="(1560,1020)" to="(1580,1020)"/>
     <wire from="(1520,730)" to="(1550,730)"/>
     <wire from="(830,630)" to="(1540,630)"/>
     <wire from="(860,1050)" to="(870,1050)"/>
     <wire from="(550,990)" to="(550,1000)"/>
     <wire from="(760,1040)" to="(810,1040)"/>
-    <wire from="(960,520)" to="(960,530)"/>
     <wire from="(1580,980)" to="(1580,1000)"/>
     <wire from="(1600,580)" to="(1600,730)"/>
     <wire from="(1430,710)" to="(1430,970)"/>
@@ -4648,15 +4642,12 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
     <wire from="(300,990)" to="(340,990)"/>
     <wire from="(1450,670)" to="(1450,860)"/>
     <wire from="(1580,1020)" to="(1580,1330)"/>
-    <wire from="(830,730)" to="(960,730)"/>
     <wire from="(330,970)" to="(340,970)"/>
     <wire from="(1580,1000)" to="(1610,1000)"/>
     <wire from="(1510,1020)" to="(1530,1020)"/>
     <wire from="(820,790)" to="(820,1030)"/>
-    <wire from="(970,550)" to="(1050,550)"/>
     <wire from="(220,900)" to="(220,960)"/>
     <wire from="(1120,1080)" to="(1120,1160)"/>
-    <wire from="(910,520)" to="(910,550)"/>
     <wire from="(1130,500)" to="(1180,500)"/>
     <wire from="(140,970)" to="(170,970)"/>
     <wire from="(830,770)" to="(920,770)"/>
@@ -4664,18 +4655,15 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
     <wire from="(1050,1000)" to="(1080,1000)"/>
     <wire from="(1070,1060)" to="(1290,1060)"/>
     <wire from="(210,900)" to="(220,900)"/>
-    <wire from="(960,550)" to="(960,730)"/>
     <wire from="(1120,1080)" to="(1290,1080)"/>
     <wire from="(1110,960)" to="(1360,960)"/>
     <wire from="(980,1040)" to="(980,1060)"/>
     <wire from="(1450,670)" to="(1460,670)"/>
     <wire from="(680,980)" to="(680,1020)"/>
     <wire from="(830,710)" to="(1430,710)"/>
-    <wire from="(930,520)" to="(930,750)"/>
     <wire from="(250,980)" to="(270,980)"/>
     <wire from="(500,1060)" to="(530,1060)"/>
     <wire from="(480,970)" to="(500,970)"/>
-    <wire from="(960,730)" to="(1310,730)"/>
     <wire from="(980,1060)" to="(1010,1060)"/>
     <wire from="(1640,1010)" to="(1660,1010)"/>
     <wire from="(1580,1020)" to="(1610,1020)"/>
@@ -4684,7 +4672,6 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
     <wire from="(860,970)" to="(860,980)"/>
     <wire from="(1360,830)" to="(1360,860)"/>
     <wire from="(140,580)" to="(1600,580)"/>
-    <wire from="(970,520)" to="(970,550)"/>
     <wire from="(670,760)" to="(670,930)"/>
     <wire from="(1360,670)" to="(1360,730)"/>
     <wire from="(1360,750)" to="(1360,810)"/>
@@ -4719,11 +4706,6 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
     <wire from="(1410,740)" to="(1550,740)"/>
     <wire from="(1360,750)" to="(1380,750)"/>
     <wire from="(1360,730)" to="(1380,730)"/>
-    <wire from="(950,380)" to="(950,390)"/>
-    <wire from="(940,420)" to="(940,450)"/>
-    <wire from="(1130,380)" to="(1130,500)"/>
-    <wire from="(950,380)" to="(1130,380)"/>
-    <wire from="(960,420)" to="(960,430)"/>
     <wire from="(180,980)" to="(180,1110)"/>
     <wire from="(150,1110)" to="(180,1110)"/>
     <wire from="(300,1120)" to="(1070,1120)"/>
@@ -4754,7 +4736,6 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
     <wire from="(510,1200)" to="(510,1230)"/>
     <wire from="(510,1200)" to="(540,1200)"/>
     <wire from="(1540,1040)" to="(1540,1090)"/>
-    <wire from="(960,430)" to="(1050,430)"/>
     <wire from="(1020,1080)" to="(1020,1250)"/>
     <wire from="(1080,1000)" to="(1080,1250)"/>
     <wire from="(920,1060)" to="(920,1250)"/>
@@ -4771,6 +4752,14 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
     <wire from="(410,1010)" to="(410,1220)"/>
     <wire from="(450,1020)" to="(450,1230)"/>
     <wire from="(430,1020)" to="(450,1020)"/>
+    <wire from="(960,430)" to="(1050,430)"/>
+    <wire from="(1130,380)" to="(1130,500)"/>
+    <wire from="(960,380)" to="(960,430)"/>
+    <wire from="(960,380)" to="(1130,380)"/>
+    <wire from="(830,750)" to="(1090,750)"/>
+    <wire from="(830,730)" to="(1310,730)"/>
+    <wire from="(520,1000)" to="(520,1010)"/>
+    <wire from="(520,1000)" to="(540,1000)"/>
     <comp lib="6" loc="(855,626)" name="Text">
       <a name="text" val="PcWrite"/>
       <a name="font" val="Dialog plain 12"/>
@@ -4877,22 +4866,6 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
       <a name="color" val="#ff0921"/>
       <a name="halign" val="center"/>
       <a name="valign" val="base"/>
-    </comp>
-    <comp lib="1" loc="(940,450)" name="OR Gate">
-      <a name="facing" val="north"/>
-      <a name="width" val="1"/>
-      <a name="size" val="70"/>
-      <a name="inputs" val="6"/>
-      <a name="out" val="01"/>
-      <a name="label" val=""/>
-      <a name="labelfont" val="Dialog plain 12"/>
-      <a name="labelcolor" val="#000000"/>
-      <a name="negate0" val="false"/>
-      <a name="negate1" val="false"/>
-      <a name="negate2" val="false"/>
-      <a name="negate3" val="false"/>
-      <a name="negate4" val="false"/>
-      <a name="negate5" val="false"/>
     </comp>
     <comp lib="0" loc="(920,1250)" name="Tunnel">
       <a name="facing" val="north"/>
@@ -5071,12 +5044,6 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(870,550)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="1"/>
-      <a name="label" val="MemWrite"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
     <comp lib="0" loc="(450,1230)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="1"/>
@@ -5158,12 +5125,6 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
       <a name="facing" val="north"/>
       <a name="width" val="1"/>
       <a name="label" val="RST"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(1050,550)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="width" val="1"/>
-      <a name="label" val="MemRead"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="6" loc="(845,666)" name="Text">
@@ -5309,6 +5270,12 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
       <a name="label" val=""/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(520,1010)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="1"/>
+      <a name="label" val="CLK"/>
+      <a name="labelfont" val="SansSerif plain 10"/>
     </comp>
     <comp lib="0" loc="(1260,1070)" name="Constant">
       <a name="facing" val="east"/>
@@ -5472,18 +5439,6 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
       <a name="label" val="CLK"/>
       <a name="labelfont" val="SansSerif plain 10"/>
     </comp>
-    <comp lib="1" loc="(950,390)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="width" val="1"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="out" val="01"/>
-      <a name="label" val=""/>
-      <a name="labelfont" val="Dialog plain 12"/>
-      <a name="labelcolor" val="#000000"/>
-      <a name="negate0" val="false"/>
-      <a name="negate1" val="false"/>
-    </comp>
     <comp lib="6" loc="(851,685)" name="Text">
       <a name="text" val="PcSrc"/>
       <a name="font" val="Dialog plain 12"/>
@@ -5587,20 +5542,6 @@ ae300200 22100001 22310004 ae300200 22100001 22310004 ae300200 22100001
       <a name="color" val="#000000"/>
       <a name="halign" val="center"/>
       <a name="valign" val="base"/>
-    </comp>
-    <comp lib="0" loc="(960,550)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="2"/>
-      <a name="incoming" val="2"/>
-      <a name="appear" val="center"/>
-      <a name="bit0" val="0"/>
-      <a name="bit1" val="1"/>
-    </comp>
-    <comp lib="0" loc="(540,1000)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="1"/>
-      <a name="label" val="CLK"/>
-      <a name="labelfont" val="SansSerif plain 10"/>
     </comp>
     <comp lib="0" loc="(210,900)" name="Tunnel">
       <a name="facing" val="east"/>
