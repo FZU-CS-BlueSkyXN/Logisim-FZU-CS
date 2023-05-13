@@ -1,0 +1,26 @@
+GREAT＝１
+
+X3>Y3
+X3=Y3 & X2>Y2
+X3=Y3 & X2=Y2 & X1>Y1
+X3=Y3 & X2=Y2 & X1=Y1 & X0>Y0
+
+~xor  =
+
+X3 > Y3 即为 X3=1 Y3=0
+所以 X3 & ~Y3
+
+X3=Y3 即为 ~(X3 XOR Y3)
+
+
+
+X3 & ~Y3 +  ~(X3 XOR Y3) & X2 & ~Y2 + ~(X3 XOR Y3) & ~(X2 XOR Y2) & X1 & ~Y1 + ~(X3 XOR Y3) & ~(X2 XOR Y2) & ~(X1 XOR Y1)& X0 & ~Y0 
+
+~(X3 xor Y3) ~(X2 xor Y2) ~(X1 xor Y1) ~(X0 xor Y0)
+
+~(~(X3 xor Y3) ~(X2 xor Y2) ~(X1 xor Y1) ~(X0 xor Y0) + X3 & ~Y3 +  ~(X3 XOR Y3) & X2 & ~Y2 + ~(X3 XOR Y3) & ~(X2 XOR Y2) & X1 & ~Y1 + ~(X3 XOR Y3) & ~(X2 XOR Y2) & ~(X1 XOR Y1)& X0 & ~Y0 )
+
+
+X0 ~Y3 ~Y2 ~Y1 ~Y0 + X1 ~Y3 ~Y2 ~Y1 + X1 X0 ~Y3 ~Y2 ~Y0+X2 ~Y3~Y2 +X2 X0 ~Y3 ~Y1 ~Y0 + X2 X1 ~Y3 ~Y1 + X2 X1 X0 ~Y3 ~Y0+X3 ~Y3 + X3 X0 ~Y2 ~Y1 ~Y0 +X3 X1 ~Y2 ~Y1+ X3 X1 X0 ~Y2 ~Y0 +X3 X2 ~Y2 + X3 X2 X0 ~Y1 ~Y0 +X3 X2 X1 ~Y1 +X3 X2 X1 X0 ~Y0
+
+~X3 ~X2 ~X1 ~X0 Y0 + ~X3 ~X2 ~X1 Y1 + ~X3 ~X2 ~X0 Y1 Y0 +~X3 ~X2 Y2 + ~X3 ~X1 ~X0 Y2 Y0 +~X3 ~X1 Y2 Y1 +~X3 ~X0 Y2 Y1 Y0 + ~X3 Y3 + ~X2 ~X1 ~X0 Y3 Y0 + ~X2 ~X1 Y3 Y1 + ~X2 ~X0 Y3 Y1 Y0 + ~X2 Y3 Y2 + ~X1 ~X0 Y3 Y2 Y0 + ~X1 Y3 Y2 Y1 + ~X0 Y3 Y2 Y1 Y0
